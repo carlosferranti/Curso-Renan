@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace WinFormsEstudo
 {
@@ -11,12 +12,15 @@ namespace WinFormsEstudo
             InitializeComponent();
         }
 
-        //http://www.linhadecodigo.com.br/artigo/1177/serie-aprenda-csharp-estrutura-de-repeticao.aspx
+        // http://www.linhadecodigo.com.br/artigo/1177/serie-aprenda-csharp-estrutura-de-repeticao.aspx
 
         private void btnExecutar_Click(object sender, EventArgs e)
         {
-
             //  ***************** ESTRUTURAS CONDICIONAIS
+
+            #region if
+
+            Console.WriteLine("--------IF--------");
 
             int idade = 18;
             if (idade >= 18) // if = se
@@ -30,9 +34,16 @@ namespace WinFormsEstudo
                 Console.WriteLine("Você é menor de idade!");
             }
 
-            // ----------------------------------------------------------------------------------------------
+            Console.WriteLine("\r"); // aplica o <Enter>
+            #endregion
 
-            int mes = 2;
+            #region Switch/Case
+            // Switch - Case = é uma estrutura de condição que define o código a ser executado com base em uma
+            // comparação de valores.
+
+            Console.WriteLine("--------Switch/Case--------");
+
+            int mes = 2; // criando a variável
             switch (mes)
             {
                 case 1:
@@ -71,33 +82,42 @@ namespace WinFormsEstudo
                 case 12:
                     Console.WriteLine("O mês é Dezembro");
                     break;
-                default:
+                default: // se não entrou em nenhum "case" acima então assume este valor (default = padrão) 
                     Console.WriteLine("Mês inválido");
                     break;
             }
 
+            Console.WriteLine("\r"); // aplica o <Enter>
+            #endregion
+
             //  ***************** ESTRUTURAS DE REPETIÇÃO
 
+            #region while
             // WHILE = Enquanto
-            //
-            int numero = -1;
-            while (numero != 10)
+
+            Console.WriteLine("--------WHILE--------");
+
+            bool condicao = true;
+            int valor = 0;
+
+            valor = 50;
+
+            while (condicao)
             {
-                Console.Write("Digite um número: ");
-                numero = Convert.ToInt32(Console.ReadLine());
-                if (numero < 10)
-                {
-                    Console.WriteLine("Você errou, tente um número maior.");
-                }
-                else if (numero > 10)
-                {
-                    Console.WriteLine("Você errou, tente um número menor.");
-                }
-                else
-                {
-                    Console.WriteLine("Parabéns, você acertou!");
-                }
+
+                if (valor == 60)
+                    condicao = false;
+
+                Console.WriteLine(valor++);
             }
+
+            Console.WriteLine("\r"); // aplica o <Enter>
+
+            #endregion
+
+            #region  do-while
+
+            Console.WriteLine("--------do while--------");
 
             // do - while = faça enquanto
             int contador = 15;
@@ -107,6 +127,10 @@ namespace WinFormsEstudo
                 contador++;
             } while (contador <= 10);
 
+            Console.WriteLine("\r"); // aplica o <Enter>
+            #endregion
+
+            #region for
             // for = para 
 
             // esse exemplo é quando se sabe quantos itens terá numa coleção ou lista (mesma coisa)
@@ -121,8 +145,12 @@ namespace WinFormsEstudo
                 Console.WriteLine(res.ToString());
             }
             Console.WriteLine("\r"); // aplica o <Enter>
+            #endregion
 
-            // ----------------------------------------------------------------------------------------------
+            #region foreach
+
+            Console.WriteLine("--------foreach--------");
+
             // aqui já tem uma coleção/lista definida
             // então o foreach vai percorrer por todos items na lista
             string[] nomes = { "Renan", "Cleber", "Carol", "Denis", "Guigo", "Roberto", "Bruna", "Carla", "Daniel" };
@@ -131,6 +159,9 @@ namespace WinFormsEstudo
             {
                 Console.WriteLine(nome.ToString());
             }
+            Console.WriteLine("\r"); // aplica o <Enter>
+
+            #endregion
 
         }
     }

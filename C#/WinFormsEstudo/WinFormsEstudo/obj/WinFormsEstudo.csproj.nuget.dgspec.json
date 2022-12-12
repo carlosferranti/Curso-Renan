@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\source\\repos\\WinFormsEstudo\\WinFormsEstudo\\WinFormsEstudo.csproj": {}
+    "C:\\Users\\carlo\\Documentos\\GitHub\\Curso-Renan\\C#\\WinFormsEstudo\\WinFormsEstudo\\WinFormsEstudo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\source\\repos\\WinFormsEstudo\\WinFormsEstudo\\WinFormsEstudo.csproj": {
+    "C:\\Users\\carlo\\Documentos\\GitHub\\Curso-Renan\\C#\\WinFormsEstudo\\WinFormsEstudo\\WinFormsEstudo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\WinFormsEstudo\\WinFormsEstudo\\WinFormsEstudo.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Documentos\\GitHub\\Curso-Renan\\C#\\WinFormsEstudo\\WinFormsEstudo\\WinFormsEstudo.csproj",
         "projectName": "WinFormsEstudo",
-        "projectPath": "C:\\Users\\carlo\\source\\repos\\WinFormsEstudo\\WinFormsEstudo\\WinFormsEstudo.csproj",
+        "projectPath": "C:\\Users\\carlo\\Documentos\\GitHub\\Curso-Renan\\C#\\WinFormsEstudo\\WinFormsEstudo\\WinFormsEstudo.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\source\\repos\\WinFormsEstudo\\WinFormsEstudo\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\Documentos\\GitHub\\Curso-Renan\\C#\\WinFormsEstudo\\WinFormsEstudo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

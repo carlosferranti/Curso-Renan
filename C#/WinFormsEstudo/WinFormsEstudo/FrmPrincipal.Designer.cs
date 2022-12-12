@@ -36,7 +36,7 @@
             // 
             this.btnExecutar.Location = new System.Drawing.Point(84, 128);
             this.btnExecutar.Name = "btnExecutar";
-            this.btnExecutar.Size = new System.Drawing.Size(171, 29);
+            this.btnExecutar.Size = new System.Drawing.Size(277, 29);
             this.btnExecutar.TabIndex = 0;
             this.btnExecutar.Text = "Executar";
             this.btnExecutar.UseVisualStyleBackColor = true;
@@ -48,9 +48,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(84, 94);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 20);
+            this.label1.Size = new System.Drawing.Size(277, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Estruturas de repetição";
+            this.label1.Text = "Estruturas condicionais  e de repetição";
             // 
             // frmPrincipal
             // 
