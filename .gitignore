@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/C#/WinFormsEstudo/WinFormsEstudo/bin/Debug/net6.0-windows/WinFormsEstudo.pdb
+/C#/WinFormsEstudo/.vs/WinFormsEstudo/v17/.suo
+/C#/WinFormsEstudo/.vs/WinFormsEstudo/DesignTimeBuild/.dtbcache.v2
+/C#/WinFormsEstudo/.vs/ProjectEvaluation
+*.pdb
+*.pdb
+C\#/WinFormsEstudo/.vs/WinFormsEstudo/v17/.suo
+C\#/WinFormsEstudo/.vs/WinFormsEstudo/v17/.futdcache.v2
+C\#/WinFormsEstudo/.vs/WinFormsEstudo/FileContentIndex/c71960be-09a2-4750-a608-7e741f9a1c15.vsidx
+C\#/WinFormsEstudo/WinFormsEstudo/obj/Debug/net6.0-windows/WinFormsEstudo.dll
+C\#/WinFormsEstudo/WinFormsEstudo/obj/Debug/net6.0-windows/WinFormsEstudo.pdb
