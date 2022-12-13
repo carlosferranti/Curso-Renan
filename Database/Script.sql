@@ -1,3 +1,7 @@
+
+-- CUIDADO AO EXECUTAR O SCRIPT INTEIRO, POIS o DATABASE SERÁ TODO APAGADO E RECRIADO
+-- USE COM CAUTELA, UTILIZE PARTES DO SCRIPTS CONFORME SUA NECESSIDADE
+
 use master
 GO
 
@@ -7,10 +11,10 @@ GO
 CREATE DATABASE Db_Curso
 GO
 
-use Db_Curso
+--use Db_Curso
 
-SELECT * FROM master.sys.databases ORDER BY name; -- mostra todos os banco de dados
-GO
+-- SELECT * FROM master.sys.databases ORDER BY name; -- mostra todos os banco de dados
+-- GO
 --
 
 use Db_Curso;
@@ -42,7 +46,8 @@ INSERT INTO tbUsuario (usuario_cpf, usuario_nome, usuario_endereco, usuario_cria
 INSERT INTO tbUsuario (usuario_cpf, usuario_nome, usuario_endereco, usuario_criado, usuario_alterado) VALUES ('33344455566', 'Mary W. Green'   , 'Bradock 38'      , GETDATE(), NULL);
 INSERT INTO tbUsuario (usuario_cpf, usuario_nome, usuario_endereco, usuario_criado, usuario_alterado) VALUES ('44455566677', 'Mary C. Gray'    , 'Dericky 2308'    , GETDATE(), NULL);
 INSERT INTO tbUsuario (usuario_cpf, usuario_nome, usuario_endereco, usuario_criado, usuario_alterado) VALUES ('55566677788', 'Billy K. Krausen', 'Slitsem Mary,280', GETDATE(), NULL);
-
+INSERT INTO tbUsuario (usuario_cpf, usuario_nome, usuario_endereco, usuario_criado, usuario_alterado) VALUES ('00000000000', 'Renan Simonsen'  , 'Vitory, 98'      , GETDATE(), NULL);
+INSERT INTO tbUsuario (usuario_cpf, usuario_nome, usuario_endereco, usuario_criado, usuario_alterado) VALUES ('11111111111', 'Carlos Tchecovski','New Front,11'    , GETDATE(), NULL);
 
 -- RETORNA A TABELA CRIADA COM OS NOVOS DADOS INSERIDOS:
 
