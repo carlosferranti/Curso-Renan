@@ -1,6 +1,8 @@
-
 -- CUIDADO AO EXECUTAR O SCRIPT INTEIRO, POIS o DATABASE SERÁ TODO APAGADO E RECRIADO
 -- USE COM CAUTELA, UTILIZE PARTES DO SCRIPTS CONFORME SUA NECESSIDADE
+--
+-- Conteúdo de apoio para instalação do Sql Server 2019 e SQL Server Management Studio 2019: https://www.youtube.com/watch?v=LxtLqS-9KYo
+
 
 use master
 GO
